@@ -13,11 +13,16 @@ echo "<hr/>";
 echo 'El valor de $a es 5';
 echo "<hr/>";
 // 4. Usa comillas dobles para mostrar el texto: El valor de $a es 5 (debe mostrar el valor de la variable $a). 
-echo "El valor de $a es $a";
-echo "<hr/>";
+$a=5;
+echo "El valor de \$a es $a.";
+echo "<hr/>"; 
 // 5. Declara $texto = "Hola" y $numero = 10. Concatena ambos con el operador . y muéstralos con echo. 
-
+$texto="Hola";
+$numero=10;
+echo $texto . $numero;
+echo "<hr/>";
 // 6. Declara $valor = "123" (cadena). Conviértelo a entero usando casting y súmale 10. Muestra el resultado. 
+$valor=(string)123;
 
 // 7. Declara $valor = 45.7. Conviértelo a entero usando casting. Muestra el resultado. 
 
